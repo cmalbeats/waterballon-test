@@ -1,15 +1,24 @@
-# Water Balloon Game — GitHub Pages Ready
+# Water Balloon Game — Unity Project + GitHub Pages
 
-This is a placeholder WebGL build for the Water Balloon Game.
+This repository contains:
+- **Unity_ReadyToOpen_Project**: Source project with Editor script to auto-generate the scene and prefabs.
+- **WebGL_Build/**: Placeholder HTML for GitHub Pages hosting.
 
-## How to deploy
+## Running the Game Locally
+1. Open this project in Unity 2021.3 LTS or newer.
+2. The scene and prefabs will be generated automatically.
+3. Press **Play**.
 
-1. Upload this folder's contents to your GitHub repository **in the root branch or `gh-pages` branch**.
-2. In your GitHub repo, go to **Settings → Pages** and set the source to the branch containing these files.
-3. Your game will be live at: `https://<your-username>.github.io/<your-repo>/`.
+## Hosting on GitHub Pages
+1. Push this repo to GitHub.
+2. In **Settings → Pages**, set:
+   - Branch: `main`
+   - Folder: `/WebGL_Build`
+3. Your page will be live at:
+   ```
+   https://<your-username>.github.io/<your-repo>/
+   ```
 
-## How to replace placeholder with real game
-
-1. Build your game in Unity (**File → Build Settings → WebGL → Build**).
-2. Replace everything in this folder with Unity's generated WebGL build output.
-3. Push changes to GitHub — Pages will serve the updated playable game.
+When you have a real Unity WebGL build:
+- Build it to the `WebGL_Build` folder, overwriting the placeholder files.
+- Push changes to GitHub — Pages will serve the playable build.
