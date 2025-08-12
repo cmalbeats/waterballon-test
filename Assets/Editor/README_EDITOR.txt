@@ -1,0 +1,1 @@
+This Editor script (SceneBuilder) will automatically create a DemoScene with prefabs when the project is opened in Unity. Use Tools -> Build Demo Scene (manual) to run it again.
